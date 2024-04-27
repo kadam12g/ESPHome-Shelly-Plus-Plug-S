@@ -1,6 +1,6 @@
 # Flashing ESPHome onto Shelly Plus Plug S V2
 
-This guide will walk you through the steps necessary for flashing ESPHome onto a Shelly Plus Plug S V2
+This guide will walk you through the steps necessary for flashing ESPHome onto a Shelly Plus Plug S V2.
 
 ### Important Notes Before You Begin:
 1. **Internet Access Required:** The Shelly Plug needs internet access during the initial setup to update the factory firmware to the latest version. As of now, there's no workaround for this requirement, which is generally not problematic for most setups.
