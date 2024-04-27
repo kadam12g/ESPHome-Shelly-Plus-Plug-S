@@ -1,0 +1,28 @@
+esphome:
+  name: test
+  friendly_name: test
+
+esp32:
+  board: esp32doit-devkit-v1
+  framework:
+    type: esp-idf
+    platform_version: 6.4.0
+    version: 5.1.1
+
+logger:
+
+api:
+  encryption:
+    key: "{{API_KEY}}"
+
+ota:
+  password: "{{OTA_PW}}"
+
+wifi:
+  ssid: "{{SSID}}"
+  password: "{{PASSWORD}}"
+  ap:
+    ssid: "Shelly"
+    password: "IfJwQEwt7dCO"
+
+captive_portal:

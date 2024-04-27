@@ -1,0 +1,27 @@
+esphome:  
+  name: test  
+  platformio_options:  
+    board_build.flash_mode: dio  
+esp32:  
+  board: esp32doit-devkit-v1  
+  framework:  
+    type: esp-idf  
+    platform_version: 6.4.0  
+    version: 5.1.1  
+wifi:  
+  manual_ip:  
+    static_ip: {{IP_for_the_device}}  
+    gateway: {{GW_IP}}  
+    subnet: 255.255.255.0  
+    dns1: {{Usually_GW_IP}}  
+  id: wifiId  
+  ssid: {{Your_SSID}}  
+  password: {{Your_PASSWORD}}  
+  ap:  
+    ssid: SHELLY-ESPHOME  
+    password: asdfasdf  
+ota:  
+  unprotected_writes: True # This is mandatory if you want to flash the partition table or bootloader!     
+logger:  
+web_server:  
+button:
