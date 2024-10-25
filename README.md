@@ -7,6 +7,8 @@ People have reported that flashing Tasmota to Shellys running Firmware version v
 
 If you did the upgrade using the wrong firmware version, and the device got bricked after flashing Tasmota, it may be possible to recover it using the method described [here](https://github.com/tasmota/mgos32-to-tasmota32/issues/75#issuecomment-2379974905).
 
+---
+
 ### Important Notes Before You Begin:
 1. **Internet Access Required:** The Shelly Plug needs internet access during the initial setup to update the factory firmware to the latest version. As of now, there's no workaround for this requirement, which is generally not problematic for most setups.
 
