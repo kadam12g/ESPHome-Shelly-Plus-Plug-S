@@ -7,6 +7,8 @@ This guide will walk you through the steps necessary for flashing ESPHome onto a
 # :warning: WARNING! :warning:
 People have reported that flashing Tasmota to Shellys running firmware version v1.4.2 get bricked. If possible, do NOT upgrade the shelly firmware to 1.4.0 or above. 1.3.3 has been reported to work for converting to Tasmota. But devices running Shelly firmware <1.4.0 get bricked when trying to flash Tasmota versions >= 14.0.0. Tasmota version 13.4.1 was reported to work [here](https://github.com/kadam12g/ESPHome-Shelly-Plus-Plug-S/issues/1) by @datenzar. (Thanks again!) The above mentioned versions of the Shelly and Tasmota firmware can be found in the files folder. The shelly firmware was not obtained from Shelly, and I did not test it, so use it at your own risk.
 
+Apply these fixes to the relevant steps (7-10) of the guide, as those have not been updated at time this warning was added.
+
 If you did the upgrade using the wrong firmware version, and the device got bricked after flashing Tasmota, it may be possible to recover it using the method described [here](https://github.com/tasmota/mgos32-to-tasmota32/issues/75#issuecomment-2379974905).
 
 ---
